@@ -1,5 +1,5 @@
 const color = document.getElementById('colorSelect')
-const button = document.getElementById('button')
+const button = document.querySelector('input[type="button"]');
 
 
 button.addEventListener('click',()=>{
