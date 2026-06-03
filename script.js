@@ -4,5 +4,5 @@ const button = document.getElementById('button')
 
 button.addEventListener('click',()=>{
     // console.log(color.value)
-    color.remove(color)
+    color.remove(color.selectedIndex)
 })
